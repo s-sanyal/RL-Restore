@@ -15,7 +15,7 @@ flags.DEFINE_string('dataset', 'moderate', 'Select a dataset from mild/moderate/
 flags.DEFINE_string('play_model', 'models/', 'Path for testing model')
 # training
 flags.DEFINE_string('save_dir', 'models/save/', 'Path for saving models')
-flags.DEFINE_string('log_dir', 'logs/', 'Path for logs')
+#flags.DEFINE_string('log_dir', 'logs/', 'Path for logs')
 FLAGS = flags.FLAGS
 
 
